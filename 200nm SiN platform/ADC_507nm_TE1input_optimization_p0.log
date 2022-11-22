@@ -2,23 +2,23 @@ Ansys Lumerical 2020 R2 FDTD Solver Version 8.24.2387 (Windows 64bit)
  expires (month/day/year): 12/31/2035
 using config file: Ansys Licensing set with ANSYSLMD_LICENSE_FILE
 license host: 
-current time: Tue Nov 22 11:54:13 2022
+current time: Tue Nov 22 12:39:12 2022
 Running on host: DESKTOP-ARIOGBO
-host available memory (GB): 25.584329
+host available memory (GB): 24.571199
 All processes are communicating and ready to proceed to simulation...
 Running fsp file: D:\Lumerical\v202\bin\fdtd-engine-msmpi.exe -t 1 -remote C:/Users/user/Documents/GitHub/ADC-based-mode-multiplexers/200nm SiN platform/ADC_507nm_TE1input_optimization.fsp
 Starting meshing
-Simulation size in gridpoints: 1 x 360 x 26
+Simulation size in gridpoints: 1 x 363 x 26
 Refined 0 mesh cells (0%)
 Completed meshing!
 Meshing complete in 0 seconds of CPU time
 Starting meshing
-Simulation size in gridpoints: 1 x 360 x 26
+Simulation size in gridpoints: 1 x 363 x 26
 Refined 0 mesh cells (0%)
 Completed meshing!
 Meshing complete in 0 seconds of CPU time
 Starting meshing
-Simulation size in gridpoints: 1 x 360 x 26
+Simulation size in gridpoints: 1 x 363 x 26
 Refined 0 mesh cells (0%)
 Completed meshing!
 Meshing complete in 0.015625 seconds of CPU time
@@ -26,25 +26,25 @@ number of processors is 24
 processors are distributed as: 24x1x1
 Running 3D Simulation
 Starting meshing
-Simulation size in gridpoints: 327 x 374 x 33
+Simulation size in gridpoints: 327 x 377 x 33
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 2 seconds of CPU time
+Meshing complete in 1.98438 seconds of CPU time
 0 0
 Starting meshing
-Simulation size in gridpoints: 327 x 374 x 33
+Simulation size in gridpoints: 327 x 377 x 33
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 2.17188 seconds of CPU time
+0 0
+Starting meshing
+Simulation size in gridpoints: 327 x 377 x 33
 Refined 0 mesh cells (0%)
 Completed meshing!
 Meshing complete in 1.89062 seconds of CPU time
 0 0
-Starting meshing
-Simulation size in gridpoints: 327 x 374 x 33
-Refined 0 mesh cells (0%)
-Completed meshing!
-Meshing complete in 1.85938 seconds of CPU time
-0 0
 finished material properties
-Meshing Time: 4.18483 seconds, Init Electrical Material Time: 0.530275 seconds, Init Magnetic Material Time: 0.0198412
+Meshing Time: 4.13829 seconds, Init Electrical Material Time: 0.412501 seconds, Init Magnetic Material Time: 0.0204312
 Using selected optimization level: 2
 Selecting 3d kernel for splitFieldDirection=0 and optLevel=2
 -----------------------------------------
@@ -71,5 +71,4 @@ Finished initialization of 3D Simulation
 -----------------------------------------
 All processes are communicating and ready to proceed to simulation...
 Starting 63299 total iterations
-0.0379151% complete. Max time remaining: 5 hrs, 47 mins, 57 secs. Auto Shutoff: 1
-1.04267% complete. Max time remaining: 5 hrs, 47 mins, 18 secs. Auto Shutoff: 0.990262
+0.0379151% complete. Max time remaining: 5 hrs, 50 mins, 47 secs. Auto Shutoff: 1
