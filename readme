@@ -3,7 +3,6 @@
 采用python的splayout package和L-edit联合进行了版图的绘制。
 从文章看，设计结构有三个要求：
 1.access waveguide 的左侧应该设计为工艺容忍的最小宽度；bus波导的左侧应该设计为支持TEi阶模式，而不支持TE(i+1)阶模式。
-2.access waveguide 的右侧和bus waveguide的右侧要设计的使得最高阶的超模主要被局域在access waveguide中，而其他低阶的超模主要被局域在bus waveguide中(the
-highest-order supermodes of TE- and TM-polarizations are localized in the narrow core while the other lower supermodes are confined dominantly in the wide core)；
+2.access waveguide 的右侧和bus waveguide的右侧要设计的使得最高阶的超模主要被局域在access waveguide中，而其他低阶的超模主要被局域在bus waveguide中(the highest-order supermodes of TE- and TM-polarizations are localized in the narrow core while the other lower supermodes are confined dominantly in the wide core)；
 并且neff TE (waveguide的右侧, p)<neff TE(access waveguide 的右侧,0) < neff TE(bus waveguide的右侧,p-1)
 3.波导之间的gap这里主要受限于工艺，但也不能设计的太小。
